@@ -42,7 +42,8 @@ const ChatPage: React.FC = () => {
           {isAgentTyping ? 'Agent is typing...' : 'Ready to chat!'}
         </CardDescription>
       </CardHeader>
-      <ChatWindow messages={messages} />      <ChatInput onSendMessage={handleSendMessage} disabled={isAgentTyping} />
+      < ChatWindow messages = { messages } />
+      <ChatInput onSendMessage={ handleSendMessage } disabled = { isAgentTyping } />
     </div>
   );
 };
