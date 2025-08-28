@@ -31,7 +31,7 @@ const ChatPage: React.FC = () => {
       };
       setMessages((prevMessages) => [...prevMessages, agentResponse]);
       setIsAgentTyping(false);
-    }, 1500); // Simulate a 1.5 second delay  
+    }, 1500);
   };
 
   return (
