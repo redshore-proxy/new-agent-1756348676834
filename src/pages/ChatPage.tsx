@@ -34,8 +34,7 @@ const ChatPage: React.FC = () => {
     }, 1500);
   };
 
-  return (
-    <div className="flex flex-col h-screen max-h-screen bg-background">
+  return (<div className="flex flex-col h-screen max-h-screen bg-background">
       <CardHeader >
         <CardTitle>AI Chat Agent</CardTitle>
         <CardDescription>
