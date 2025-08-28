@@ -36,7 +36,7 @@ const ChatPage: React.FC = () => {
 
   return (
     <div className="flex flex-col h-screen max-h-screen bg-background">
-      <CardHeader className="border-b">
+      <CardHeader >
         <CardTitle>AI Chat Agent</CardTitle>
         <CardDescription>
           {isAgentTyping ? 'Agent is typing...' : 'Ready to chat!'}
