@@ -22,7 +22,7 @@ const ChatPage: React.FC = () => {
       return { genAI: null, model: null, apiKeyError: true };
     }
     const genAIInstance = new GoogleGenerativeAI(API_KEY);
-    const modelInstance = genAIInstance.getGenerativeModel({ model: "gemini-pro" }); return { genAI: genAIInstance, model: modelInstance, apiKeyError: false };
+    const modelInstance = genAIInstance.getGenerativeModel({ model: "gemini-2.0-flash" }); return { genAI: genAIInstance, model: modelInstance, apiKeyError: false };
   }, []); // Empty dependency array means it only runs once
 
   useEffect(() => {
